@@ -1,6 +1,6 @@
 <?php
 
-$to      = 'litaa.oliveira@gmail.com';
+$to      = ''; // coloca teu email aqui
 $subject = 'the subject';
 $message = $_POST['texto'];
 $headers = 'From:'.$_POST['email']. "\r\n" .
